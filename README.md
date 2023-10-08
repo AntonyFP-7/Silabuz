@@ -72,7 +72,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 2=> ejecuto las migraciones y los seed para generar data de prueba 
 
 php artisan migrate --seed
+
 se creará un usuario por defecto 
+
 user=test@example.com 
 
 password=123456789 
@@ -83,6 +85,7 @@ con la siguiente dependencia
 composer require tymon/jwt-auth
 
  para generar clave
+ 
  php artisan jwt:secret
  
 Descripción: Autor: Antony Flores
