@@ -66,16 +66,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 1=> ejecutar las migraciones para crear la bd
+
  php artisan migrate 
  
 2=> ejecuto las migraciones y los seed para generar data de prueba 
+
 php artisan migrate --seed
-se creará un usuario por defecto user=test@example.com 
+se creará un usuario por defecto 
+user=test@example.com 
+
 password=123456789 
 
 3=> para la autenticación en el api se utilizó JWT 
 con la siguiente dependencia 
+
 composer require tymon/jwt-auth
+
  para generar clave
  php artisan jwt:secret
  
