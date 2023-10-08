@@ -67,17 +67,23 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 1=> ejecutar las migraciones para crear la bd
  php artisan migrate 
+ 
 2=> ejecuto las migraciones y los seed para generar data de prueba 
 php artisan migrate --seed
 se creará un usuario por defecto user=test@example.com 
 password=123456789 
+
 3=> para la autenticación en el api se utilizó JWT 
 con la siguiente dependencia 
 composer require tymon/jwt-auth
  para generar clave
  php artisan jwt:secret
+ 
 Descripción: Autor: Antony Flores
+
 Menú álbumes En este menú podemos visualizar álbumes con sus fotos y su información, realizar búsquedas, además de editar, crear, eliminar. Asimismo, visualizar el detalle los artistas y las canciones que contiene
+
 Menús artistas En este menú podemos visualizar el detalle de la información de los artistas, realizar búsquedas, agregar, eliminar y actualizar. Además visualizar el detalle de sus canciones y su género musical del artista
+
 Menú canciones En este menú podemos visualizar a que género y artista de la canción, realizar búsquedas, crear, editar y eliminar
 
