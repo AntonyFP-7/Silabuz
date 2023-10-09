@@ -96,3 +96,5 @@ Menús artistas En este menú podemos visualizar el detalle de la información d
 
 Menú canciones En este menú podemos visualizar a que género y artista de la canción, realizar búsquedas, crear, editar y eliminar
 
+Nota: ejecutar npm run dev para cargar los estilos
+
